@@ -1,0 +1,106 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 35px;
+    color: #D9D9D9;
+    background-color: #091F14;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1300px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.test__title {
+    font-family: 'Eczar', serif;
+    font-weight: 500;
+    font-size: 64px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 40px;
+}
+
+.test__inner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 30px auto;
+    grid-gap: 30px;
+}
+
+.test__item {
+    border: 3px solid #082A19;
+    box-shadow: 0px 4px 100px 5px #4EC987;
+    border-radius: 15px;
+    width: 370px;
+    padding: 15px;
+}
+
+.test__item-title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 35px;
+    color: #1FE9A5;
+    margin: 0 0 2px 0;
+}
+
+.test__form-label {
+    display: block;
+    cursor: pointer;
+    user-select: none;
+}
+
+.test__form-label span {
+    font-weight: 400;
+    font-size: line-height;
+    color: #D9D9D9;
+    margin-bottom: 20px;
+}
+
+.test__btn {
+    border: 3px solid #4EC987;
+    box-shadow: 0px 4px 100px 5px #A9C94E;
+    border-radius: 15px;
+    padding: 64px 27px 25px 38px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: #082A19;
+    font-weight: 400;
+    cursor: pointer;
+    display: block;
+    /* background-image: url('img/shreck.jpg'); */
+    background-image: url('img/1.jpg');
+}
+
+.wrapper {
+    background-image: url(img/bg.png);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover
+}
+
+.test__border {
+    background-color: #1FE988;
+    opacity: 4;
+    box-shadow: 0px 4px 100px 5px #4EC987;
+    border-radius: 15px;
+    padding: 40px;
+}
+
+p {
+    margin-top: 1000px;
+}
+
+.test__link {
+    text-decoration: none;
+}
